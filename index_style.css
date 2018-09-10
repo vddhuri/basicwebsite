@@ -1,0 +1,412 @@
+/*
+base color ##61a8d0
+secondary color #333333
+*/
+
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+	font-size: 14px;
+	margin:0;
+	padding: 0;
+}
+
+.mail,.phone{
+	float: right;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 17px;
+}
+
+
+
+
+nav{
+	height: 40px;
+	width: auto;
+	background-color:#333;
+}
+
+
+
+
+.nav-links{
+	float: right;
+	list-style: none;
+	text-align: right;
+	padding-top: 10px;
+	text-anchor: none;
+
+}
+
+.nav-links li{
+	float:left;
+
+}
+
+.nav-links li a{
+
+	text-align: center;
+	margin-right:15px;
+	margin-left:15px;
+	margin-top: 10px;
+	color: #fff;
+    text-decoration: none;
+    padding-bottom:3px;
+	border-bottom: 2px solid transparent;
+  	font-size: 120%;
+	transition:border-bottom 0.2s;
+}
+
+
+nav p{
+	float: left;
+	font-size:120%;
+}
+.hovereffect{
+	width: 200px;
+    cursor: pointer;
+    border: 1px solid #e1e1e1;
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+}
+
+
+.nav-links li a:hover{
+	border-bottom: 2px solid;
+	color: #61a8d0;
+	font-size: 120%;
+
+}
+.home-course{
+	margin-top: 60px;
+	margin-left: 140px;
+}
+
+.img-hover{
+	background-image: url("c1.png");
+
+}
+
+
+
+.logo{
+	margin-left: 40px;
+	padding-bottom: 4px;
+	margin-top: 0px;
+	padding-top: 0px;
+	float: left;
+	height: 70px;
+	width: auto;
+}
+
+.top-bar{
+	height: 60px;
+	width: 100%;
+	background-color: #f1f1f1;
+	color:#fff;
+	font-size: 140%;
+	padding-left: 30px;
+	
+	padding-bottom:30px;
+	vertical-align: middle;
+}
+
+.icon{
+	height: 22px;
+	width: auto;
+	float: left;
+	text-align: left;
+	font-size: 120%
+	width:auto;
+	margin-right: 8px;
+	padding-bottom: 2px;
+}
+
+.top-bar a{
+	text-decoration: none;
+	font-size: 90%;
+	color: black;
+	padding-top: 20px;
+}
+
+.section-about-img{
+	float: left;
+}
+
+.section-about-text{
+	height: 350px;
+	background-color:#F1F1F1;
+}
+
+.section-about-text p{
+	text-align: left;
+	margin-left: 470px;
+	margin-right: 50px;
+	padding-top: 20px;
+	font-size:120%;
+	line-height:200%;
+}
+
+.section-about-text a{
+	margin-left: 33px;
+	padding-top: 10px;
+	text-decoration:none;
+	color: #6EBBFC;
+	border:2px solid #333333;
+	text-align: center;
+	padding-bottom: 10px;
+	padding-left: 4px;
+	padding-right: 4px;
+	border-radius: 10px;
+}
+
+.section-about-text a:hover{
+	color: #333333;
+}
+
+
+.courselink{
+	width:100%;
+	height: 100px;
+}
+/*start */
+.container1 {
+	float: left ;
+	margin-top: 10px;
+	margin-left: 120px;
+    position: relative;
+    width: 20%;
+}
+
+.container{
+	float: left ;
+	margin-top: 10px;
+	position: relative;
+    width: 20%;	
+
+}
+.image {
+  opacity: 1;
+  display: block;
+  width: 30%;
+  border: 3px solid grey;
+  background-color: rgb(234, 239, 245);
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  height: 10px;
+  width: 20px;
+  position: absolute;
+  top: 50px;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container1:hover .image{
+	opacity:0.3;
+}
+.container:hover .middle {
+  opacity: 1;
+}
+
+.container1:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: transparent;
+  border: 1px solid black;
+  display: inline-block;
+    text-transform: uppercase;
+  color: white;
+  font-size: 14px;
+ 	text-align: center;
+ 	padding-top: 6px;
+  height: 30px;
+  width: 100px;
+
+   
+}
+/* Till here from  .container is the css for hover effect and each symbol is currently having the same css containers */
+.read{
+	    transition: all 0.2s ease;
+
+}
+
+.line{
+	 border: 3px dotted #0099CC;
+        margin-left:10px;
+        margin-right:10px;
+}
+.students-reviews{
+	background-image:url("E:/class/img/testmo_img.jpg");
+	
+    color:#C9C9C9;
+	width: 100%;
+	height: 500px;
+}
+
+.students-reviews-para,.queres-section-para{
+	margin top: 10px;
+	display: block;
+	text-align:center;
+	font-size:250%;
+	padding-top:30px;
+	letter-spacing: 1.5px;
+	word-spacing: 4px;
+
+
+}
+
+
+.students-reviews-para:after,.queres-section-para:after{
+	display: block;
+	content: ' ';
+	height:6px;
+	width: 220px;
+	background-color: #707070;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+}
+
+.student{
+	width:30%;
+	margin-left: 15px;
+	margin-right: 15px;
+	float: left;
+	margin-top: 30px;
+}
+
+.student img{
+	height: 54px;
+	width: 57px;
+}
+
+.student p{
+	font-size: 150%;
+	padding-top:25px;
+	line-height: 30px;
+}
+
+/*start*/
+.student1{
+	width:30%;
+	margin-left: 45px;
+	margin-right: 15px;
+	float: left;
+	margin-top: 30px;
+}
+
+.student1 img{
+	height: 54px;
+	width: 57px;
+}
+
+.student1 p{
+	font-size: 150%;
+	padding-top:25px;
+	line-height: 30px;
+}
+
+/*end*/
+.student-name p img{
+	width: 90px;
+	height: auto;
+	border-radius: 50%;
+	vertical-align: middle;
+	margin-right: 20px;
+}
+
+.query-form{
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 45px;
+
+}
+
+.row:before,
+.row:after {
+    content:"";
+    display:table;
+}
+.row:after {
+    clear:both;
+}
+
+.col {
+	display: block;
+	float:left;
+	margin: 1% 0 1% 1.6%;
+}
+
+.col:first-child { margin-left: 0; } 
+
+
+
+.query-attribute{
+	padding-top: 7px;
+	padding-left:120px;
+	width: 40%
+}
+
+.query-attribute label{
+	
+	font-size: 170%;
+
+
+}
+
+.query-value{
+	width: 50%;
+	padding-left: 70px;
+}
+
+
+input[type=text],input[type=email],select,textarea{
+	width: 100%;
+	padding: 7px;
+	border-radius: 10%;
+	border:1px solid #ccc;
+	font-size: 140%;
+}
+
+#send-btn{
+	color: #333;
+	background-color:#6EBBFC;
+	border:3px solid #6EBBFC;
+	padding-top:10px;
+	padding-bottom: 10px;
+	padding-left: 30px;
+	padding-right:30px;
+	border-radius: 200px;
+	
+	font-size:140%;
+	transition:background-color,border 0.5s;
+}
+
+#send-btn:hover{
+	color:#6EBBFC;
+	background-color:#f1f1f1;
+	border:3px solid #333;
+
+}
